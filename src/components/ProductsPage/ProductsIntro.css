@@ -1,0 +1,25 @@
+
+    .products-banner {
+      background-image: url(https://www.bluebell.com/wp-content/uploads/2021/11/Blue-Bell-Products-Hero-1600x340.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .products-banner h1 {
+      color: #25458d !important;
+      font-size: 4rem;
+      font-family: "Sorts Mill Goudy", serif;
+      line-height: 1.06;
+      font-weight: 400;
+      letter-spacing: .025rem;
+      /* padding: 10px 20px; */
+      border-radius: 6px;
+      margin-right: 40vw;  /* ← very close to left edge */
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    

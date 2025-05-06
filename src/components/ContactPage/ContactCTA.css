@@ -1,0 +1,68 @@
+.contact-cta {
+    background-image: url('https://www.bluebell.com/wp-content/themes/bluebell/library/images/bb-wood-bkg-pattern.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 40px;
+    gap: 210px;
+    flex-wrap: wrap;
+  }
+  
+  .cta-left img {
+    /* max-width: 100%; */
+    height: auto;
+    width: 300px;
+    height: 240px;
+  }
+  
+  .cta-right {
+    max-width: 500px;
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .cta-right h2 {
+    font-size: 2rem;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    font-size: 2.1875rem;
+    line-height: 1.314;
+    font-weight: 900;
+    color: #25458d;
+    position: relative;
+    padding-top: 1rem;
+   margin: 0 0 10px 0;
+  }
+  
+  .cta-right p {
+    font-size: 22px;
+    color: #493c35;
+    margin-bottom: 20px;
+    display: block;
+    justify-content: center;
+    margin: 0 0 20px 0;
+  }
+  
+  .cta-right button {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.125;
+    margin: 0 0 1.11111rem;
+    position: relative;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid #25458d;
+    border-radius: 4px;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: #25458d;
+    
+  }
+

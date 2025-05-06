@@ -1,0 +1,40 @@
+.recipes-header {
+    background-color: #124078;
+    background-image: url("https://www.bluebell.com/wp-content/themes/bluebell/library/images/bb-wood-texture-blue.jpg"); /* optional texture */
+    background-size: cover;
+    color: white;
+    padding: 80px 40px;
+    text-align: center;
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .recipes-text h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: "Sorts Mill Goudy", serif;
+    line-height: 1.06;
+    font-weight: 400;
+    letter-spacing: .025rem;
+  }
+  
+  .recipes-text p {
+    font-size: 1.3rem;
+    font-family: Arial, sans-serif;
+    color: #f4f4f4;
+    font-weight: normal;
+  }
+  
+  .recipes-image-wrapper {
+    margin-top: 40px;
+  }
+  
+  .recipes-image-wrapper img {
+    width: 500px;
+    max-width: 90%;
+    transform: rotate(-4deg);
+    height: 290px;
+  }
+  

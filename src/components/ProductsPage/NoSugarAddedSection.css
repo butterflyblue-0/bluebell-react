@@ -1,0 +1,33 @@
+.no-sugar-section {
+  background-color: #fffaf0;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.flavor-single {
+   display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.flavor-card:hover {
+  transform: scale(1.05);
+}
+
+.section-subheading {
+  margin-bottom: 100px;
+}
+
+.flavor-single{
+  margin-bottom: 100px;
+
+}

@@ -1,0 +1,35 @@
+.update-notice {
+    background-color: #ffe59f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+    font-family: 'Futura PT', sans-serif;
+    flex-wrap: wrap;
+  }
+  
+  .update-title {
+    display: flex;
+    flex-direction: column;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    font-size: 1.75rem;
+    line-height: 1.214;
+    font-weight: 900;
+  }
+  
+  .update-title .italic {
+    font-size: 4.0625rem;
+    font-weight: normal;
+    line-height: 1;
+  }
+  
+  .update-title .bold {
+    font-weight: bold;
+  }
+  
+  .update-text {
+    font-size: 22px;
+    color: #493c35;
+  }
+  

@@ -1,0 +1,58 @@
+
+
+.rotational-section {
+    background-color: #FEFAEE;
+  }
+   
+   .section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .section-heading h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: #25458D;
+    margin: 0;
+    font-size: 4.0625rem;
+    font-weight: normal;
+    line-height: 0.8307;
+    font-family: "relation-one", "Brush Script MT", cursive;
+    text-align: center;
+  }
+  
+  .section-heading hr {
+    flex: 1;
+    height: 2px;
+    background-color: #1d3b8b;
+    border: none;
+  }
+
+ .section-subheading {
+    color: #25458D !important;
+    margin-top: 30px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  } 
+
+  .flavor-card p {
+    margin: 0;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    font-size: 1.65rem;
+    line-height: 1.214;
+    font-weight: 800;
+    width: 300px;
+  }
+
+   .flavor-row:last-child {
+    margin-bottom: 100px; 
+  } 
+  
+  .flavor-card.small-image img {
+    max-width: 150px; /* or whatever size you want */
+  }

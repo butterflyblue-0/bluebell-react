@@ -1,0 +1,129 @@
+.country-day {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+  }
+  
+  .left-panel {
+    flex: 1;
+    background-color: #ffe39d;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .left-image {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .left-title {
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 0.8307;
+  }
+
+  .creamery{
+    font-family: "relation-one", "Brush Script MT", cursive;
+  }
+  
+  .left-description {
+    font-size: 16px;
+    max-width: 600px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .left-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .btn-outline, .btn-solid {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    border: 2px solid #004aad;
+    background: transparent;
+    color: #004aad;
+  }
+  
+  .btn-outline {
+    background-color: #004aad;
+    color: white;
+  }
+  .btn-solid {
+    background-color: #004aad;
+    color: white;
+  }
+  
+  .btn-outline:hover {
+    background-color: #003a8c;
+  }
+  
+  .btn-solid:hover {
+    background-color: #003a8c;
+  }
+  
+  .right-panel {
+    flex: 1;
+    background-image: url('../../assets/right-icon.png'); /* background image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px 30px;
+  }
+  
+  .right-overlay {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  }
+  
+  .right-image {
+    width: 230px;
+    margin-bottom: 20px;
+  }
+  
+  .right-panel h2 {
+    font-size: 4.0625rem;
+    margin-bottom: 10px;
+    font-weight: normal;
+    line-height: 0.8307;
+    color:  #004aad;
+    font-family: "relation-one", "Brush Script MT", cursive;
+    font-style: normal !important;
+    vertical-align: baseline;
+    outline: none !important;
+  
+  }
+  
+  .right-panel p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #003a8c;
+  }
+  

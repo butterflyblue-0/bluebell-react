@@ -1,0 +1,144 @@
+.contact-form-section {
+    display: flex;
+    background-color: #fdf7e9;
+    padding: 60px 100px;
+  }
+  
+  .contact-left, .contact-right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .contact-left {
+    padding-right: 40px;
+  }
+  
+  .contact-block {
+    margin-bottom: 30px;
+  }
+  
+  .contact-block h5 {
+    /* font-size: 1rem;
+    color: #154398;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase; */
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    font-size: 1rem;
+    line-height: 1.625;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  
+  .contact-block p, .disclaimer {
+    font-size: 22px;
+    color: #493c35;
+    font-weight: normal;
+
+  }
+  
+  .disclaimer {
+    margin-top: 20px;
+  }
+  
+  .form-note {
+    font-size: 22px;
+    color: #493c35;
+    margin-bottom: 20px;
+
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    /* font-size: 1rem; */
+    font-size: 15px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .upload-box {
+    border: 1px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .upload-box button {
+    background-color: #2b4da1;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .upload-note {
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  .checkbox {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .captcha {
+    margin-top: 20px;
+  }
+  
+  .captcha-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .submit-btn {
+    margin-top: 30px;
+    background-color: #2b4da1;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .address-input{
+    max-width: 540px;
+    
+  }
+
+  .phone-input{
+    max-width: 250px;
+  }

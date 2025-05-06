@@ -1,0 +1,49 @@
+.press-inquiry {
+    background-color: #fff9eb;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .press-heading {
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    font-size: 1.75rem;
+    line-height: 1.214;
+    font-weight: bold;
+    
+  }
+  
+  .press-heading span {
+    font-size: 4.0625rem;
+    font-weight: normal;
+    line-height: 1;
+    font-family: "relation-one", "Brush Script MT", cursive;
+    font-style: normal !important;
+  }
+  
+  .press-description {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #493c35;
+    font-family: "futura-pt", Helvetica, Arial, sans-serif;
+  }
+  
+  .press-description a {
+    color: #25458D;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .press-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: #25458D;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  

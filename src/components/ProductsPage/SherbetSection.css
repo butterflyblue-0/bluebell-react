@@ -1,0 +1,19 @@
+.sherbet-section {
+    background-color: #fffaf0;
+    padding: 60px 40px;
+    text-align: center;
+  }
+
+
+  .flavor-row.center-row {
+    justify-content: center;
+  }
+  
+
+  
+  .flavor-card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  

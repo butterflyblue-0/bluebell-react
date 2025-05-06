@@ -1,0 +1,109 @@
+.creamery-visit {
+    background-color: #ffe39d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .creamery-left {
+    flex: 1;
+    min-width: 300px;
+    font-family: "futura-pt", Helvetica, Arial, sans-serif;
+    color: #25458d;
+  }
+  
+  .creamery-left h2 {
+    font-size: 31px;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    line-height: 1.214;
+   
+    margin: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .creamery-left .script {
+    margin-left: 8px;
+    font-family: 'relation-one', 'Brush Script MT', cursive;
+    font-size: 50px;
+    font-weight: 100;
+    padding-top: -40px;
+  }
+  
+  .creamery-left p {
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #493c35;
+    margin: 0 0;
+  }
+  
+  .location-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  .location-buttons button {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.125;
+    margin: 0 0 1.11111rem;
+    position: relative;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid #25458d;
+    border-radius: 4px;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: #25458d;
+  }
+  
+  .location-buttons button:hover {
+   background-color: white;
+   border: 3px solid #25458d;
+   color: #25458d;
+  }
+  
+  .creamery-right {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .creamery-right img {
+    max-width: 100%;
+    height: auto;
+    transform: rotate(-2deg);
+  }
+  
+  /* Optional decorative cow row at bottom */
+  .creamery-visit::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: url('https://www.bluebell.com/wp-content/themes/bluebell/library/images/belle-repeat.png') repeat-x bottom center;
+    background-size: contain;
+    opacity: 0.9;
+    pointer-events: none;
+    display: block;
+
+  }
+  

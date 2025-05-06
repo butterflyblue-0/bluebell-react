@@ -1,0 +1,76 @@
+.country-store {
+    /* A dark wood-brown tone */
+    padding: 60px 40px;
+    color: white;
+    background-color: #170004;
+background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  }
+  
+  .country-store-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .store-left {
+    flex: 1;
+    text-align: center;
+    min-width: 300px;
+  }
+  
+  .store-left img {
+    max-width: 100%;
+    height: auto;
+    width: 450px;
+  }
+  
+  .store-right {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    min-width: 300px;
+  }
+  
+  .store-right h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .store-right h2 span {
+    font-style: italic;
+    font-weight: 400;
+    font-family: "relation-one", "Brush Script MT", cursive;
+
+  }
+  
+  .store-right p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-inline: auto;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    vertical-align: baseline;
+    outline: none !important;
+    box-sizing: border-box;
+  }
+  
+  .shop-btn {
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-btn:hover {
+    background-color: #003a8c;
+  }
+  

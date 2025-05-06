@@ -1,0 +1,82 @@
+.coloring-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe59f;
+    padding: 80px 60px;
+    font-family: 'Futura PT', sans-serif;
+    flex-wrap: wrap;
+   
+  }
+  
+  .coloring-left {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .coloring-left h2 {
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    font-size: 1.75rem;
+    line-height: 1.214;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin: 0 0;
+  }
+  
+  .belle-script {
+    font-size: 4.0625rem;
+    font-weight: normal;
+    line-height: 1;
+    font-family: "relation-one", "Brush Script MT", cursive;
+  }
+  
+  .coloring-left p {
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #493c35;
+    margin: 0 0 20px 0;
+  }
+  
+  .download-btn {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.125;
+    margin: 0 0 1.11111rem;
+    position: relative;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid #25458d;
+    border-radius: 4px;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: #25458d;
+  }
+  
+  .download-btn:hover {
+    background-color: #1a3573;
+  }
+  
+  .coloring-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .coloring-right img {
+    max-width: 100%;
+    height: auto;
+  }
+  

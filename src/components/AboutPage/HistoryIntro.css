@@ -1,0 +1,79 @@
+.history-wrapper {
+  background-color: #25458D;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  height: 100vh;
+  box-sizing: border-box;
+  gap: 40px;
+  flex-wrap: wrap;
+ 
+}
+
+.history-left {
+  flex: 1;
+   max-width: 520px;
+  max-height: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px; 
+  margin-left: 50px;
+}
+
+.history-left h2{
+  font-size: 4rem;
+  font-family: "Sorts Mill Goudy", serif;
+  line-height: 1.06;
+  font-weight: 400;
+  letter-spacing: .025rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+.history-left-inside{
+  margin-top: 1rem;
+}
+.history-left-inside h4{
+  font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.214;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+   
+ 
+}
+
+.history-left-inside h1{
+  font-family: 'relation-one', 'Brush Script MT', cursive;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.history-left p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 520px;
+  max-height: 450px;
+}
+
+.history-right {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.history-right img {
+  width: 100%;
+  max-width: 500px;
+  transform: rotate(3deg);
+}

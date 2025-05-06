@@ -1,0 +1,58 @@
+.sweet-moments {
+    text-align: center;
+    background-color: white;
+    padding: 60px 20px;
+    color: #1d3c78;
+    padding-top: 20px;
+  }
+  
+  .sweet-moments h2 {
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    font-size: 4rem;
+    line-height: 1.06;
+    font-weight: 400;
+    color: #25458d;
+    letter-spacing: .025rem;
+  }
+  
+  .hashtag {
+    margin-bottom: 25px;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    font-size: 1.75rem;
+    line-height: 1.214;
+    font-weight: 900;
+  }
+  
+  .follow-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .follow-row span {
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    font-size: 1.75rem;
+    line-height: 1.214;
+    font-weight: 900;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease;
+  }
+  
+  .icons img:hover {
+    transform: scale(1.1);
+  }
+  

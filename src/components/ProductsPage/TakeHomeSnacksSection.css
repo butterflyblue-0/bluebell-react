@@ -1,0 +1,84 @@
+.snacks-section {
+    background-color: #fffaf0;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+    color: #1d3b8b;
+    margin-bottom: 10px;
+    gap: 20px;
+  }
+  
+  .section-title .line {
+    flex: 1;
+    height: 2px;
+    background-color: #1d3b8b;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #1d3b8b;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle .light {
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .snacks-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .snack-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .snack-row.center {
+    justify-content: center;
+  }
+  
+  .snack-item {
+    width: 300px;
+    height: 250px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .snack-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .snack-item img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .snack-item p {
+    margin: 0;
+    font-family: "futura-pt", Helvetica, Arial, Verdana, Geneva, sans-serif;
+    color: #25458d;
+    font-size: 1.65rem;
+    line-height: 1.214;
+    font-weight: 800;
+    width: 300px;
+  }
+  

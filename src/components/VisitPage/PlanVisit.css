@@ -1,0 +1,81 @@
+.visit-creamery-wrapper {
+    font-family: 'Futura PT', sans-serif;
+  }
+  
+  /* Title + Tabs */
+  .visit-tabs {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .visit-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #25458D;
+    margin-bottom: 30px;
+  }
+  
+  .tab-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.1rem;
+    color: #25458D;
+    font-weight: bold;
+  }
+  
+  .tab-links span {
+    cursor: pointer;
+  }
+  
+  .tab-links .active {
+    color: #4a75d4;
+    font-family: "relation-one", "Brush Script MT", cursive;
+  }
+  
+  .tab-links .divider {
+    border-left: 1px solid #25458D;
+    height: 20px;
+    margin: 0 5px;
+  }
+  
+  /* Ice Cream Parlor Layout */
+  .ice-cream-parlor-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffe59f;
+    margin-bottom: 50px;
+  }
+  
+  .ice-cream-left img {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .ice-cream-right {
+    flex: 1;
+    padding: 60px;
+    color: #333;
+  }
+  
+  .ice-cream-right h5 {
+    color: #25458D;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .ice-cream-right h2 {
+    color: #25458D;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .ice-cream-right .hours {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  

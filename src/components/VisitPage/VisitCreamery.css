@@ -1,0 +1,57 @@
+.visit-creamery {
+    background-image: url('https://www.bluebell.com/wp-content/themes/bluebell/library/images/bb-wood-texture-blue.jpg'); /* Put your background texture here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    height: 80vh;
+  }
+  
+  .visit-content h1 {
+    font-size: 4rem;
+    font-family: "Sorts Mill Goudy", serif;
+    line-height: 1.06;
+    font-weight: 400;
+    letter-spacing: .025rem;
+  }
+
+  .visit-content{
+    margin-top: 150px;
+  }
+  
+  .visit-content p {
+    font-size: 22px;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+  }
+  
+  .visit-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn.white {
+     background-color: white;
+    color: #1d3b8b;
+    font-weight: bold; 
+ 
+  }
+  
+  .btn.outline {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+  }
+  

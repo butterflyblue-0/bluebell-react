@@ -1,0 +1,23 @@
+.contact-banner {
+    background-image: url('https://www.bluebell.com/wp-content/themes/bluebell/library/images/bb-wood-texture-blue.jpg'); /* Adjust if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-banner h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 90px 0 0 0;
+    font-family: "Sorts Mill Goudy", serif;
+    line-height: 1.06;
+    font-weight: 400;
+    letter-spacing: .025rem;
+    font-size: 4rem;
+  }
+  

@@ -1,0 +1,22 @@
+.news-header {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .news-title {
+    font-size: 4rem;
+    max-width: 85%;
+    color: white;
+    text-align: center;
+    font-family: "Sorts Mill Goudy", serif;
+    line-height: 1.06;
+    font-weight: 400;
+    letter-spacing: .025rem;
+    padding-top: 50px;
+  }
+  
