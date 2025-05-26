@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bluebell-react/static/css/main.63c648a7.css",
-    "main.js": "/bluebell-react/static/js/main.e9c02009.js",
+    "main.js": "/bluebell-react/static/js/main.e4f2cc0a.js",
     "static/media/hero3.jpg": "/bluebell-react/static/media/hero3.9e9b2fe22bdc39280443.jpg",
     "static/media/recipe3.jpg": "/bluebell-react/static/media/recipe3.4fbe63bc407762a3cf35.jpg",
     "static/media/news2.jpg": "/bluebell-react/static/media/news2.ca8b69b85a0dee8ff602.jpg",
@@ -130,10 +130,10 @@
     "static/media/instagram.png": "/bluebell-react/static/media/instagram.0d8edca0af1a847ff2e6.png",
     "index.html": "/bluebell-react/index.html",
     "main.63c648a7.css.map": "/bluebell-react/static/css/main.63c648a7.css.map",
-    "main.e9c02009.js.map": "/bluebell-react/static/js/main.e9c02009.js.map"
+    "main.e4f2cc0a.js.map": "/bluebell-react/static/js/main.e4f2cc0a.js.map"
   },
   "entrypoints": [
     "static/css/main.63c648a7.css",
-    "static/js/main.e9c02009.js"
+    "static/js/main.e4f2cc0a.js"
   ]
 }
